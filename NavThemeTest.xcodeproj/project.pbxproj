@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196F03C315687AF400FF9E4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196F03C215687AF400FF9E4B /* UIKit.framework */; };
+		196F03C515687AF400FF9E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196F03C415687AF400FF9E4B /* Foundation.framework */; };
+		196F03C715687AF400FF9E4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196F03C615687AF400FF9E4B /* CoreGraphics.framework */; };
+		196F03CD15687AF400FF9E4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 196F03CB15687AF400FF9E4B /* InfoPlist.strings */; };
+		196F03CF15687AF400FF9E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F03CE15687AF400FF9E4B /* main.m */; };
+		196F03D315687AF400FF9E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F03D215687AF400FF9E4B /* AppDelegate.m */; };
+		196F03D515687AF400FF9E4B /* NavThemeTest.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 196F03D415687AF400FF9E4B /* NavThemeTest.entitlements */; };
+		196F03D815687AF400FF9E4B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F03D715687AF400FF9E4B /* MasterViewController.m */; };
+		196F03DB15687AF400FF9E4B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F03DA15687AF400FF9E4B /* DetailViewController.m */; };
+		196F03DE15687AF400FF9E4B /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196F03DC15687AF400FF9E4B /* MasterViewController.xib */; };
+		196F03E115687AF400FF9E4B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196F03DF15687AF400FF9E4B /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		196F03BE15687AF400FF9E4B /* NavThemeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavThemeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		196F03C215687AF400FF9E4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		196F03C415687AF400FF9E4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		196F03C615687AF400FF9E4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		196F03CA15687AF400FF9E4B /* NavThemeTest-Info.plist */ = {isa = PBXFileReference; path = "NavThemeTest-Info.plist"; sourceTree = "<group>"; };
+		196F03CC15687AF400FF9E4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		196F03CE15687AF400FF9E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		196F03D015687AF400FF9E4B /* NavThemeTest-Prefix.pch */ = {isa = PBXFileReference; path = "NavThemeTest-Prefix.pch"; sourceTree = "<group>"; };
+		196F03D115687AF400FF9E4B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		196F03D215687AF400FF9E4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		196F03D415687AF400FF9E4B /* NavThemeTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NavThemeTest.entitlements; sourceTree = "<group>"; };
+		196F03D615687AF400FF9E4B /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		196F03D715687AF400FF9E4B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		196F03D915687AF400FF9E4B /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		196F03DA15687AF400FF9E4B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		196F03DD15687AF400FF9E4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		196F03E015687AF400FF9E4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196F03BB15687AF400FF9E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196F03C315687AF400FF9E4B /* UIKit.framework in Frameworks */,
+				196F03C515687AF400FF9E4B /* Foundation.framework in Frameworks */,
+				196F03C715687AF400FF9E4B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196F03B315687AF400FF9E4B = {
+			isa = PBXGroup;
+			children = (
+				196F03C815687AF400FF9E4B /* NavThemeTest */,
+				196F03C115687AF400FF9E4B /* Frameworks */,
+				196F03BF15687AF400FF9E4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		196F03BF15687AF400FF9E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				196F03BE15687AF400FF9E4B /* NavThemeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		196F03C115687AF400FF9E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				196F03C215687AF400FF9E4B /* UIKit.framework */,
+				196F03C415687AF400FF9E4B /* Foundation.framework */,
+				196F03C615687AF400FF9E4B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		196F03C815687AF400FF9E4B /* NavThemeTest */ = {
+			isa = PBXGroup;
+			children = (
+				196F03D115687AF400FF9E4B /* AppDelegate.h */,
+				196F03D215687AF400FF9E4B /* AppDelegate.m */,
+				196F03D615687AF400FF9E4B /* MasterViewController.h */,
+				196F03D715687AF400FF9E4B /* MasterViewController.m */,
+				196F03D915687AF400FF9E4B /* DetailViewController.h */,
+				196F03DA15687AF400FF9E4B /* DetailViewController.m */,
+				196F03DC15687AF400FF9E4B /* MasterViewController.xib */,
+				196F03DF15687AF400FF9E4B /* DetailViewController.xib */,
+				196F03C915687AF400FF9E4B /* Supporting Files */,
+			);
+			path = NavThemeTest;
+			sourceTree = "<group>";
+		};
+		196F03C915687AF400FF9E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				196F03CA15687AF400FF9E4B /* NavThemeTest-Info.plist */,
+				196F03CB15687AF400FF9E4B /* InfoPlist.strings */,
+				196F03CE15687AF400FF9E4B /* main.m */,
+				196F03D015687AF400FF9E4B /* NavThemeTest-Prefix.pch */,
+				196F03D415687AF400FF9E4B /* NavThemeTest.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		196F03BD15687AF400FF9E4B /* NavThemeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196F03E415687AF400FF9E4B /* Build configuration list for PBXNativeTarget "NavThemeTest" */;
+			buildPhases = (
+				196F03BA15687AF400FF9E4B /* Sources */,
+				196F03BB15687AF400FF9E4B /* Frameworks */,
+				196F03BC15687AF400FF9E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavThemeTest;
+			productName = NavThemeTest;
+			productReference = 196F03BE15687AF400FF9E4B /* NavThemeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		196F03B515687AF400FF9E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = iCloud;
+			};
+			buildConfigurationList = 196F03B815687AF400FF9E4B /* Build configuration list for PBXProject "NavThemeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 196F03B315687AF400FF9E4B;
+			productRefGroup = 196F03BF15687AF400FF9E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196F03BD15687AF400FF9E4B /* NavThemeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196F03BC15687AF400FF9E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196F03CD15687AF400FF9E4B /* InfoPlist.strings in Resources */,
+				196F03D515687AF400FF9E4B /* NavThemeTest.entitlements in Resources */,
+				196F03DE15687AF400FF9E4B /* MasterViewController.xib in Resources */,
+				196F03E115687AF400FF9E4B /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196F03BA15687AF400FF9E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196F03CF15687AF400FF9E4B /* main.m in Sources */,
+				196F03D315687AF400FF9E4B /* AppDelegate.m in Sources */,
+				196F03D815687AF400FF9E4B /* MasterViewController.m in Sources */,
+				196F03DB15687AF400FF9E4B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		196F03CB15687AF400FF9E4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196F03CC15687AF400FF9E4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		196F03DC15687AF400FF9E4B /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196F03DD15687AF400FF9E4B /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		196F03DF15687AF400FF9E4B /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196F03E015687AF400FF9E4B /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		196F03E215687AF400FF9E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		196F03E315687AF400FF9E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196F03E515687AF400FF9E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NavThemeTest/NavThemeTest.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavThemeTest/NavThemeTest-Prefix.pch";
+				INFOPLIST_FILE = "NavThemeTest/NavThemeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		196F03E615687AF400FF9E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NavThemeTest/NavThemeTest.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavThemeTest/NavThemeTest-Prefix.pch";
+				INFOPLIST_FILE = "NavThemeTest/NavThemeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196F03B815687AF400FF9E4B /* Build configuration list for PBXProject "NavThemeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F03E215687AF400FF9E4B /* Debug */,
+				196F03E315687AF400FF9E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196F03E415687AF400FF9E4B /* Build configuration list for PBXNativeTarget "NavThemeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F03E515687AF400FF9E4B /* Debug */,
+				196F03E615687AF400FF9E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 196F03B515687AF400FF9E4B /* Project object */;
+}
