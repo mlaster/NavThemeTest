@@ -38,6 +38,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIImage *backImage = [[UIImage imageNamed:@"back_button_default"] resizableImageWithCapInsets:UIEdgeInsetsMake(0.0f, 15.0f, 0.0f, 6.0f)];
+    //    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"CustomBack"
+    //                                                                             style:UIBarButtonItemStyleBordered
+    //                                                                            target:nil
+    //                                                                            action:NULL];
+    [self.navigationItem.backBarButtonItem setBackButtonBackgroundImage:backImage
+                                                               forState:UIControlStateNormal
+                                                             barMetrics:UIBarMetricsDefault];
+
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }

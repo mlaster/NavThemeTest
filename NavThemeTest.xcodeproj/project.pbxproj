@@ -18,6 +18,8 @@
 		196F03DB15687AF400FF9E4B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F03DA15687AF400FF9E4B /* DetailViewController.m */; };
 		196F03DE15687AF400FF9E4B /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196F03DC15687AF400FF9E4B /* MasterViewController.xib */; };
 		196F03E115687AF400FF9E4B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196F03DF15687AF400FF9E4B /* DetailViewController.xib */; };
+		196F03E815687BB700FF9E4B /* back_button_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 196F03E715687BB700FF9E4B /* back_button_default.png */; };
+		196F03EA15687C3C00FF9E4B /* gray_button_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 196F03E915687C3C00FF9E4B /* gray_button_default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +27,21 @@
 		196F03C215687AF400FF9E4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		196F03C415687AF400FF9E4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		196F03C615687AF400FF9E4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		196F03CA15687AF400FF9E4B /* NavThemeTest-Info.plist */ = {isa = PBXFileReference; path = "NavThemeTest-Info.plist"; sourceTree = "<group>"; };
+		196F03CA15687AF400FF9E4B /* NavThemeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavThemeTest-Info.plist"; sourceTree = "<group>"; };
 		196F03CC15687AF400FF9E4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		196F03CE15687AF400FF9E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		196F03D015687AF400FF9E4B /* NavThemeTest-Prefix.pch */ = {isa = PBXFileReference; path = "NavThemeTest-Prefix.pch"; sourceTree = "<group>"; };
-		196F03D115687AF400FF9E4B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		196F03D015687AF400FF9E4B /* NavThemeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavThemeTest-Prefix.pch"; sourceTree = "<group>"; };
+		196F03D115687AF400FF9E4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		196F03D215687AF400FF9E4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		196F03D415687AF400FF9E4B /* NavThemeTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NavThemeTest.entitlements; sourceTree = "<group>"; };
-		196F03D615687AF400FF9E4B /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		196F03D615687AF400FF9E4B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		196F03D715687AF400FF9E4B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		196F03D915687AF400FF9E4B /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		196F03D915687AF400FF9E4B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		196F03DA15687AF400FF9E4B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		196F03DD15687AF400FF9E4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		196F03E015687AF400FF9E4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		196F03E715687BB700FF9E4B /* back_button_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button_default.png; sourceTree = "<group>"; };
+		196F03E915687C3C00FF9E4B /* gray_button_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_button_default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +88,10 @@
 		196F03C815687AF400FF9E4B /* NavThemeTest */ = {
 			isa = PBXGroup;
 			children = (
+				196F03E715687BB700FF9E4B /* back_button_default.png */,
 				196F03D115687AF400FF9E4B /* AppDelegate.h */,
 				196F03D215687AF400FF9E4B /* AppDelegate.m */,
+				196F03E915687C3C00FF9E4B /* gray_button_default.png */,
 				196F03D615687AF400FF9E4B /* MasterViewController.h */,
 				196F03D715687AF400FF9E4B /* MasterViewController.m */,
 				196F03D915687AF400FF9E4B /* DetailViewController.h */,
@@ -164,6 +170,8 @@
 				196F03D515687AF400FF9E4B /* NavThemeTest.entitlements in Resources */,
 				196F03DE15687AF400FF9E4B /* MasterViewController.xib in Resources */,
 				196F03E115687AF400FF9E4B /* DetailViewController.xib in Resources */,
+				196F03E815687BB700FF9E4B /* back_button_default.png in Resources */,
+				196F03EA15687C3C00FF9E4B /* gray_button_default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

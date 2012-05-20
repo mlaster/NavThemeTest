@@ -26,14 +26,32 @@
     return self;
 }
 							
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
+    UIBarButtonItem *editButton = nil;
+    UIBarButtonItem *addButton = nil;
+    
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+    editButton = self.editButtonItem;
+    
+    [editButton setBackgroundImage:[[UIImage imageNamed:@"gray_button_default"] resizableImageWithCapInsets:UIEdgeInsetsMake(7.0f, 7.0f, 7.0f, 7.0f)]
+                                    forState:UIControlStateNormal
+                                  barMetrics:UIBarMetricsDefault];
+    self.navigationItem.leftBarButtonItem = editButton;
+
+    addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    
+    
+    UIImage *backImage = [[UIImage imageNamed:@"back_button_default"] resizableImageWithCapInsets:UIEdgeInsetsMake(0.0f, 15.0f, 0.0f, 6.0f)];
+//    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"CustomBack"
+//                                                                             style:UIBarButtonItemStyleBordered
+//                                                                            target:nil
+//                                                                            action:NULL];
+    [self.navigationItem.backBarButtonItem setBackButtonBackgroundImage:backImage
+                                                               forState:UIControlStateNormal
+                                                             barMetrics:UIBarMetricsDefault];
+
 }
 
 - (void)didReceiveMemoryWarning
